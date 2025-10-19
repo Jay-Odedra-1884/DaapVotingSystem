@@ -8,7 +8,7 @@ contract CounterTest is Test {
     VotingSystem public votingSystem;
 
     function setUp() public {
-        votingSystem = new Counter();
+        votingSystem = new VotingSystem();
         votingSystem.setNumber(0);
     }
 }
